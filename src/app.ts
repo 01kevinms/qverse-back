@@ -12,6 +12,7 @@ const app:FastifyInstance = fastify({
 
 
 app.register(cors,{ 
+  
   origin: ["https://01kevinms.github.io"], // Origem permitida (seu frontend no GitHub Pages)
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Métodos liberados
   allowedHeaders: ["Content-Type", "Authorization"]
