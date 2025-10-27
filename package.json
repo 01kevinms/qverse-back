@@ -1,11 +1,12 @@
 {
   "name": "backend",
-  "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "postinstall": "npx prisma generate",
-    "start": "node dist/server.js"
-  },
+ "scripts": {
+  "dev": "tsx watch src/server.ts",
+  "build": "tsc",
+  "postinstall": "npx prisma generate",
+  "start": "node dist/server.js"
+}
+,
   "dependencies": {
     "@fastify/cors": "^11.1.0",
     "@prisma/client": "^6.17.1",
